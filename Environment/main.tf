@@ -6,7 +6,7 @@ module "resource_group" {
 
 module "resource_group" {
   source   = "../modules/azurerm_resource_group"
-  rg_name  = "rg-akaushik2"
+  rg_name  = "rg-akaushi"
   location = "east us2"
 }
   
