@@ -6,19 +6,7 @@ module "resource_group" {
 
 module "resource_group" {
   source   = "../modules/azurerm_resource_group"
-  rg_name  = "rg-akaushik2"
-  location = "east us2"
-}
-  
-module "resource_group" {
-  source   = "../modules/azurerm_resource_group"
-  rg_name  = "rg-akaushik5"
-  location = "east us2"
-}
-  
-module "resource_group" {
-  source   = "../modules/azurerm_resource_group"
-  rg_name  = "rg-akaushik8"
+  rg_name  = "rg-anmol"
   location = "east us2"
 }
 
